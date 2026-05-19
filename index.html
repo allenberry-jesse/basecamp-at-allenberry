@@ -440,11 +440,13 @@ section.dark .eyebrow-row .line { background: rgba(233, 226, 210, 0.18); }
 }
 
 /* =========================================================
-   A NETWORK OF CARE
-   Marker + h2 head, flowing prose, big pull-phrase footer.
-   Typography mirrors .middle (paragraph body) and .idea
-   (heading treatment) so the section visually aligns with
-   adjacent ones without inventing a new register.
+   LOOKING AFTER OUR OWN
+   Full-width h2 head above a two-column flowing-prose body,
+   closed with a big pull-phrase. Wrapper is full-width;
+   max-width is applied on the h2 itself (same canonical
+   pattern as .who-heading h2 and .prog-head h2) so the
+   heading reads as a top-of-section banner rather than a
+   left-column item.
    ========================================================= */
 .care {
   background: var(--paper);
@@ -455,7 +457,9 @@ section.dark .eyebrow-row .line { background: rgba(233, 226, 210, 0.18); }
 }
 .care-head {
   margin: clamp(8px, 2vw, 24px) 0 clamp(40px, 6vw, 72px);
-  max-width: 18ch;
+}
+.care-head h2 {
+  max-width: 16ch;
 }
 .care-head h2 em {
   font-style: italic;
@@ -1521,17 +1525,17 @@ footer .right { color: rgba(236, 229, 211, 0.4); }
 </section>
 
 <!-- =========================================================
-     A NETWORK OF CARE
+     LOOKING AFTER OUR OWN
      ========================================================= -->
-<section class="care" id="care" data-screen-label="A Network of Care">
+<section class="care" id="care" data-screen-label="Looking After Our Own">
   <div class="wrap care-inner">
     <div class="eyebrow-row reveal">
-      <span class="marker">A Network of Care</span>
+      <span class="marker">Looking After Our Own</span>
       <span class="line"></span>
     </div>
 
     <div class="care-head reveal">
-      <h2>A network, <em>not an institution.</em></h2>
+      <h2>A community, <em>not an institution.</em></h2>
     </div>
 
     <div class="care-prose">
@@ -1547,7 +1551,7 @@ footer .right { color: rgba(236, 229, 211, 0.4); }
     </div>
 
     <div class="reveal" style="--delay: 450ms">
-      <div class="pull">Care is a fabric, <em>not a building.</em></div>
+      <div class="pull">Care is woven into the <em>community fabric.</em></div>
     </div>
   </div>
 </section>
