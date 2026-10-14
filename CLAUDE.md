@@ -18,12 +18,12 @@ Basecamp should read as a place people choose for how they want to live, not for
 index.html     landing page (inline styles + Klaviyo waitlist <script> at the bottom)
 care.html      Care interior page (linked from the Care band on index.html)
 assets/
-  basecamp-logo-white.webp       Basecamp at Allenberry logo, white, used in the header of both pages
+  basecamp-logo-white.webp       Basecamp at Allenberry logo, white on transparent, used in the header of both pages
+                                 (made from a flattened green-on-white image; swap for a vector/source export if one turns up)
   allenberry-logo-white.webp     Allenberry resort logo, used in the footer (240px, so replace with a full-res file)
   favicon.png, apple-touch-icon.png   leaf mark on the logo green
   hero-allenberry-sunrise.jpg    landing hero
   ref-home-base-dusk.webp        Why Basecamp photo: DESIGN REFERENCE (Basecamp Bend, OR)
-  ref-townhomes-dusk.webp        Residences photo: DESIGN REFERENCE
   ref-residences-1/2.webp, ref-interior.webp   Plans gallery: DESIGN REFERENCE
   amenity-*.jpg                  six Allenberry amenity photos
   siteplan-aerial.jpg            aerial base for the site plan (inline SVG overlay)
@@ -44,7 +44,7 @@ docs/   screenshots of the approved design (desktop landing, desktop care, mobil
    - "Is it for you? Basecamp is for every generation…" list, in life order: young family → age in place.
 5. **The residences `#residences`** (navy):
    - Heading: "A home designed to *evolve with you.*"
-   - Wide photo, then six cards: Architecture, Integrated suites, Elevators, Flexible living, Ownership (primary/second home), Rental program.
+   - Six cards: Architecture, Integrated suites, Elevators, Flexible living, Ownership (primary/second home), Rental program.
 6. **Living Here `#amenities`:** "Not an amenities package. *Your home.*" Six photo cards: Playhouse, Fly fishing, Fitness & classes / Spa, Dining, Creekside gathering.
 7. **Care band `#care`:** a slim band, "Support for *every season of life.*", with a "Learn more about care →" link to `care.html`.
 8. **Plans `#plans`** (navy): $700s, 2027, reference gallery, site plan, two floor-plan placeholder cards. **On hold until the architect delivers updated floor plans and site plan renderings.**
@@ -106,7 +106,7 @@ docs/   screenshots of the approved design (desktop landing, desktop care, mobil
 
 - [ ] **Klaviyo:** set `KLAVIYO_PUBLIC_KEY` and `KLAVIYO_LIST_ID` in the `<script>` at the bottom of `index.html`, and confirm the API `revision`. Until then, the form shows the success state but doesn't send anything.
 - [ ] **Footer logo:** add a full-resolution Allenberry logo.
-- [ ] **Photos:** replace the `ref-*` design reference images with Basecamp renderings, then remove the "Design reference imagery" captions.
+- [ ] **Photos:** replace the `ref-*` design reference images with Basecamp renderings, then remove the "Design reference imagery" captions. Add a wide photo back to The residences once renderings arrive.
 - [ ] **Care photos:** add photos for the care.html hero and the three care options (currently dashed placeholders).
 - [ ] **Floor plans:** "The Cottage" and "The Residence + Suite" have `[BEDS]`, `[BATHS]`, `[SQ FT]`, `[PRICE]` and `[FLOOR PLAN]` placeholders.
 - [ ] **Site plan:** the parcel and footprints are traced approximations. Replace them with the architect's plan.
