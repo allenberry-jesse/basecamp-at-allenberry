@@ -3,11 +3,11 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Basecamp at Allenberry · A Resort Community in Boiling Springs, PA</title>
-<meta name="description" content="Basecamp at Allenberry — a multigenerational community of thoughtfully designed homes on the grounds of Allenberry Resort, where wellness, nature and community meet. Join the waitlist.">
-<meta property="og:title" content="Basecamp at Allenberry · A Resort Community in Boiling Springs, PA">
-<meta property="og:description" content="Basecamp at Allenberry — a multigenerational community of thoughtfully designed homes on the grounds of Allenberry Resort, where wellness, nature and community meet. Join the waitlist.">
-<meta property="og:image" content="assets/hero-allenberry-sunrise.jpg">
+<title>Basecamp at Allenberry · Boiling Springs, PA</title>
+<meta name="description" content="Basecamp at Allenberry: a multigenerational community of thoughtfully designed homes on the grounds of the historic Allenberry Resort, where wellness, nature and community meet.">
+<meta property="og:title" content="Basecamp at Allenberry · Boiling Springs, PA">
+<meta property="og:description" content="Basecamp at Allenberry: a multigenerational community of thoughtfully designed homes on the grounds of the historic Allenberry Resort, where wellness, nature and community meet.">
+<meta property="og:image" content="assets/render-aerial.jpg">
 <link rel="icon" type="image/png" href="assets/favicon.png">
 <link rel="apple-touch-icon" href="assets/apple-touch-icon.png">
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -22,6 +22,8 @@ summary{list-style:none}summary::-webkit-details-marker{display:none}
 details[open] .wl-icon{transform:rotate(45deg)}.wl-icon{transition:transform .2s}
 summary:hover .wl-toggle,a.wl-toggle:hover{background:#1A2530;color:#FBF8F2!important}
 summary:focus-visible{outline:2px solid #595C3B;outline-offset:6px;border-radius:8px}
+@media (max-width: 760px){.cc-step{margin-left:0 !important;grid-template-columns:40px minmax(0,1fr) !important;padding:22px 20px !important}.cc-step>div:last-child{grid-column:1 / -1}}
+@media (max-width: 760px){.care-hero-shade{background:linear-gradient(180deg, rgba(26,37,48,0.45) 0%, rgba(26,37,48,0.6) 40%, rgba(26,37,48,0.92) 100%) !important}}
 html{scroll-behavior:smooth}
 [hidden]{display:none !important}
 button:disabled{opacity:.6;cursor:default}
@@ -45,20 +47,19 @@ button:disabled{opacity:.6;cursor:default}
 </div>
 </header>
 
-<section id="top" style="position: relative; min-height: 760px; display: flex; align-items: flex-end; background: #1A2530; color: #FBF8F2">
-<img src="assets/hero-allenberry-sunrise.jpg" alt="Aerial view of Allenberry at sunrise, with Yellow Breeches Creek and the ridges of South Mountain on the horizon" style="position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; display: block">
-<div style="position: absolute; inset: 0; background: linear-gradient(180deg, rgba(26,37,48,0) 30%, rgba(26,37,48,0.88) 100%)"></div>
-<div style="position: relative; width: 100%; max-width: 1360px; margin: 0 auto; padding: 0 32px 64px; box-sizing: border-box; display: flex; flex-direction: column; gap: 24px">
+<section id="top" style="position: relative; min-height: clamp(520px, 56vw, 760px); display: flex; align-items: flex-end; background: #1A2530; color: #FBF8F2">
+<img src="assets/render-aerial.jpg" alt="Aerial rendering of Basecamp homes clustered around brick-paved courts among mature trees at golden hour" style="position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; object-position: center 40%; display: block">
+<div class="care-hero-shade" style="position: absolute; inset: 0; background: linear-gradient(180deg, rgba(26,37,48,0) 25%, rgba(26,37,48,0.5) 58%, rgba(26,37,48,0.9) 100%)"></div>
+<div style="position: relative; width: 100%; max-width: 1360px; margin: 0 auto; padding: 0 32px 64px; box-sizing: border-box; display: flex; flex-direction: column; gap: 28px">
 <p style="margin: 0; font-family: 'JetBrains Mono', ui-monospace, monospace; font-size: 12px; letter-spacing: 0.22em; text-transform: uppercase; color: #FBF8F2">Where wellness, nature and community meet</p>
-<h1 style="margin: 0; max-width: 980px; font-family: Fraunces, Georgia, serif; font-weight: 400; font-size: clamp(46px, 6.4vw, 92px); line-height: 0.98; letter-spacing: -0.025em; text-wrap: balance">The place you love, <em style="font-style: italic; font-weight: 500; color: #C5C9A4">now a place to live.</em></h1>
-<p style="margin: 0; max-width: 680px; font-size: 19px; line-height: 1.6; color: #E9DEC8; text-wrap: pretty">Allenberry is a historic resort that keeps growing and evolving. Basecamp is its next chapter: a multigenerational community of thoughtfully designed homes, woven right into the resort grounds. Imagine the trail starting at your door, a concert at the Playhouse, and dinner at the Barn a short walk home.</p>
+<h1 style="margin: 0; color: #FBF8F2; font-family: Fraunces, Georgia, serif; font-weight: 400; font-size: clamp(44px, 6.2vw, 92px); max-width: 980px; line-height: 0.98; letter-spacing: -0.025em; text-wrap: balance">The place you love, <em style="font-style: italic; color: #C5C9A4; font-weight: 500">now a place to live.</em></h1>
 <div style="display: flex; flex-wrap: wrap; gap: 12px 16px; align-items: center">
 <a href="#waitlist" style="font-family: Poppins, Inter, sans-serif; font-weight: 500; font-size: 13px; letter-spacing: 1.8px; text-transform: uppercase; color: #FBF8F2; background: #595C3B; text-decoration: none; padding: 15px 28px; border-radius: 9999px">Join the waitlist</a>
-<a href="#residences" style="font-family: Poppins, Inter, sans-serif; font-weight: 500; font-size: 13px; letter-spacing: 1.8px; text-transform: uppercase; color: #FBF8F2; text-decoration: none; padding: 14px 27px; border-radius: 9999px; border: 1px solid rgba(251,248,242,0.7)">Explore the homes</a>
+<a href="#residences" style="font-family: Poppins, Inter, sans-serif; font-weight: 500; font-size: 13px; letter-spacing: 1.8px; text-transform: uppercase; color: #FBF8F2; text-decoration: none; padding: 14px 27px; border-radius: 9999px; border: 1px solid rgba(251,248,242,0.75)">Explore the homes</a>
 </div>
 </div>
+<span style="position: absolute; right: 20px; bottom: 14px; font-family: 'JetBrains Mono', ui-monospace, monospace; font-size: 11px; letter-spacing: 0.06em; color: rgba(251,248,242,0.8)">Conceptual rendering — subject to change</span>
 </section>
-
 
 <section style="padding: 96px 32px">
 <div style="max-width: 1360px; margin: 0 auto; display: grid; grid-template-columns: repeat(auto-fit, minmax(min(440px, 100%), 1fr)); gap: 32px 80px; align-items: start">
@@ -67,8 +68,10 @@ button:disabled{opacity:.6;cursor:default}
 <h2 style="margin: 0; font-family: Fraunces, Georgia, serif; font-weight: 400; font-size: clamp(34px, 4.4vw, 60px); line-height: 1.02; letter-spacing: -0.02em; text-wrap: balance">Everything you come here for is <em style="font-style: italic; color: #595C3B">already here.</em></h2>
 </div>
 <div style="display: flex; flex-direction: column; gap: 20px; font-size: 18px; line-height: 1.65; color: #32414E">
-<p style="margin: 0; text-wrap: pretty">For generations, Allenberry has been where people come to get away — for a show, a weekend, a wedding, a day on the creek. Basecamp asks you to see the place you know differently: not as somewhere you visit, or even just somewhere you live, but as somewhere that becomes part of your story.</p>
-<p style="margin: 0; text-wrap: pretty">A resort community where wellness, nature and the people around you are part of everyday life.</p>
+<p style="margin: 0; text-wrap: pretty">For generations, Allenberry has been where people come to get away — for a show, a weekend, a wedding, a day on the creek. It’s a historic resort that keeps growing and evolving, and Basecamp is its next chapter: a multigenerational community of thoughtfully designed homes, woven right into the resort grounds.</p>
+<p style="margin: 0; text-wrap: pretty">Basecamp asks you to see the place you know differently: not as somewhere you visit, or even just somewhere you live, but as somewhere that becomes part of your story. Imagine the trail starting at your door, a concert at the Playhouse, and dinner at the Barn a short walk home.</p>
+<p style="margin: 0; text-wrap: pretty">A resort community where wellness, nature and the people around you are part of everyday life — and where neighbors become an extension of your family. The people who wave from the trail, save you a seat at the Playhouse and check in when you’ve been away.</p>
+<p style="margin: 0; text-wrap: pretty">It’s also a better answer to a question more and more families face: where do we live as we grow older? Conventional senior living is built around decline, and asks you to leave your home and your community behind. Basecamp is built around living well, every day and at every age — a real home, in a place you love, surrounded by every generation, with wellness woven into daily life and support close by if you ever need it.</p>
 </div>
 </div>
 </section>
@@ -83,8 +86,8 @@ button:disabled{opacity:.6;cursor:default}
 <p style="margin: 0; font-size: 19px; line-height: 1.6; color: #32414E; text-wrap: pretty">Basecamp is where every adventure begins and where you always feel at home — a place to explore, reconnect, recharge and experience everything life has to offer. And as life changes, Basecamp is designed to change with you.</p>
 </div>
 <figure style="margin: 0; display: flex; flex-direction: column; gap: 10px">
-<img src="assets/ref-home-base-dusk.webp" alt="A wood-clad residence with warmly lit windows at dusk" style="width: 100%; aspect-ratio: 21 / 9; object-fit: cover; display: block; border-radius: 12px">
-<figcaption style="font-family: 'JetBrains Mono', ui-monospace, monospace; font-size: 11px; letter-spacing: 0.06em; color: #5A6572">Design reference imagery</figcaption>
+<img src="assets/render-street.jpg" alt="A tree-lined lane of Basecamp homes glowing at sunset" style="width: 100%; aspect-ratio: 21 / 9; object-fit: cover; display: block; border-radius: 12px">
+<figcaption style="font-family: 'JetBrains Mono', ui-monospace, monospace; font-size: 11px; letter-spacing: 0.06em; color: #5A6572">Conceptual rendering — subject to change</figcaption>
 </figure>
 <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(min(440px, 100%), 1fr)); gap: 40px 80px; align-items: start">
 <div style="display: flex; flex-direction: column; gap: 16px">
@@ -106,6 +109,19 @@ button:disabled{opacity:.6;cursor:default}
 </div>
 </section>
 
+<section id="care" style="padding: 72px 32px;">
+<div style="max-width: 1360px; margin: 0 auto; display: grid; grid-template-columns: repeat(auto-fit, minmax(min(440px, 100%), 1fr)); gap: 24px 80px; align-items: center">
+<div style="display: flex; flex-direction: column; gap: 12px">
+<p style="margin: 0; font-family: 'JetBrains Mono', ui-monospace, monospace; font-size: 12px; letter-spacing: 0.22em; text-transform: uppercase; color: #595C3B">Wellness &amp; care</p>
+<h2 style="margin: 0; font-family: Fraunces, Georgia, serif; font-weight: 400; font-size: clamp(28px, 3vw, 40px); line-height: 1.08; letter-spacing: -0.015em; text-wrap: balance">Live well in <em style="font-style: italic; color: #595C3B">every season of life.</em></h2>
+</div>
+<div style="display: flex; flex-direction: column; gap: 18px; align-items: flex-start">
+<p style="margin: 0; font-size: 17px; line-height: 1.6; color: #32414E; text-wrap: pretty">Wellness here isn’t something you turn to when you’re sick — it’s part of every day: a walk on the trail, yoga by the creek, the Spa, good food and good neighbors. And if life ever asks for more, support is right here, so needing more never has to mean leaving.</p>
+<a href="care.html" class="wl-toggle" style="display: inline-flex; align-items: center; gap: 12px; font-family: Poppins, Inter, sans-serif; font-weight: 500; font-size: 13px; letter-spacing: 1.8px; text-transform: uppercase; color: #1A2530; text-decoration: none; padding: 13px 24px; border-radius: 9999px; border: 1px solid #1A2530">Learn more about wellness &amp; care <span aria-hidden="true">→</span></a>
+</div>
+</div>
+</section>
+
 <section id="residences" style="background: #1A2530; color: #FBF8F2; padding: 112px 32px">
 <div style="max-width: 1360px; margin: 0 auto; display: flex; flex-direction: column; gap: 56px">
 <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(min(440px, 100%), 1fr)); gap: 32px 80px; align-items: end">
@@ -113,8 +129,12 @@ button:disabled{opacity:.6;cursor:default}
 <p style="margin: 0; font-family: 'JetBrains Mono', ui-monospace, monospace; font-size: 12px; letter-spacing: 0.22em; text-transform: uppercase; color: #C5C9A4">The residences</p>
 <h2 style="margin: 0; font-family: Fraunces, Georgia, serif; font-weight: 400; font-size: clamp(36px, 4.8vw, 68px); line-height: 1; letter-spacing: -0.02em; text-wrap: balance">A home designed to <em style="font-style: italic; color: #C5C9A4">evolve with you.</em></h2>
 </div>
-<p style="margin: 0; font-size: 19px; line-height: 1.6; color: #D9DEE2; text-wrap: pretty">The resort is the setting. The homes are what make Basecamp different. Many residences are planned with an integrated suite and an elevator, so the same home can work for a young family today, a parent moving in down the road, and a lifetime of living well after that.</p>
+<p style="margin: 0; font-size: 19px; line-height: 1.6; color: #D9DEE2; text-wrap: pretty">The resort is the setting. The homes are what make Basecamp different. Homes are planned with an integrated suite and an elevator, so the same home can work for a young family today, a parent moving in down the road, and a lifetime of living well after that.</p>
 </div>
+<figure style="margin: 0; display: flex; flex-direction: column; gap: 10px">
+<img src="assets/render-residence.jpg" alt="A three-story Basecamp residence with a covered balcony and tall windows at dusk" style="width: 100%; aspect-ratio: 21 / 9; object-fit: cover; display: block; border-radius: 12px">
+<figcaption style="font-family: 'JetBrains Mono', ui-monospace, monospace; font-size: 11px; letter-spacing: 0.06em; color: #A9B4BF">Conceptual rendering — subject to change</figcaption>
+</figure>
 <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(min(340px, 100%), 1fr)); gap: 24px">
 <div style="display: flex; flex-direction: column; gap: 12px; background: #24323F; padding: 30px; border-radius: 12px">
 <p style="margin: 0; font-family: 'JetBrains Mono', ui-monospace, monospace; font-size: 11px; letter-spacing: 0.18em; text-transform: uppercase; color: #C5C9A4">Architecture</p>
@@ -124,12 +144,12 @@ button:disabled{opacity:.6;cursor:default}
 <div style="display: flex; flex-direction: column; gap: 12px; background: #24323F; padding: 30px; border-radius: 12px">
 <p style="margin: 0; font-family: 'JetBrains Mono', ui-monospace, monospace; font-size: 11px; letter-spacing: 0.18em; text-transform: uppercase; color: #C5C9A4">Integrated suites</p>
 <h3 style="margin: 0; font-family: Fraunces, Georgia, serif; font-weight: 400; font-size: 26px; line-height: 1.12">A suite of their own</h3>
-<p style="margin: 0; font-size: 16px; line-height: 1.6; color: #D9DEE2; text-wrap: pretty">Many homes include a private, self-contained suite for a parent, a grown child, a caregiver or guests — close by, with a door of its own.</p>
+<p style="margin: 0; font-size: 16px; line-height: 1.6; color: #D9DEE2; text-wrap: pretty">Homes include a private, self-contained suite for a parent, a grown child, a caregiver or guests — close by, with a door of its own.</p>
 </div>
 <div style="display: flex; flex-direction: column; gap: 12px; background: #24323F; padding: 30px; border-radius: 12px">
 <p style="margin: 0; font-family: 'JetBrains Mono', ui-monospace, monospace; font-size: 11px; letter-spacing: 0.18em; text-transform: uppercase; color: #C5C9A4">Elevators</p>
 <h3 style="margin: 0; font-family: Fraunces, Georgia, serif; font-weight: 400; font-size: 26px; line-height: 1.12">Every floor, for life</h3>
-<p style="margin: 0; font-size: 16px; line-height: 1.6; color: #D9DEE2; text-wrap: pretty">Elevator access in many residences, with accessibility designed in from the start rather than added later.</p>
+<p style="margin: 0; font-size: 16px; line-height: 1.6; color: #D9DEE2; text-wrap: pretty">Elevator access in every home, with accessibility designed in from the start rather than added later.</p>
 </div>
 <div style="display: flex; flex-direction: column; gap: 12px; background: #24323F; padding: 30px; border-radius: 12px">
 <p style="margin: 0; font-family: 'JetBrains Mono', ui-monospace, monospace; font-size: 11px; letter-spacing: 0.18em; text-transform: uppercase; color: #C5C9A4">Flexible living</p>
@@ -148,7 +168,7 @@ button:disabled{opacity:.6;cursor:default}
 </div>
 </div>
 <div style="display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 16px 32px; border-top: 1px solid rgba(251,248,242,0.25); padding-top: 24px">
-<p style="margin: 0; font-family: 'JetBrains Mono', ui-monospace, monospace; font-size: 11px; letter-spacing: 0.06em; color: #A9B4BF">Features vary by residence. Rental program terms to be finalized.</p>
+<p style="margin: 0; font-family: 'JetBrains Mono', ui-monospace, monospace; font-size: 11px; letter-spacing: 0.06em; color: #A9B4BF">Rental program terms to be finalized.</p>
 <a href="#plans" style="font-family: Poppins, Inter, sans-serif; font-weight: 500; font-size: 13px; letter-spacing: 1.8px; text-transform: uppercase; color: #FBF8F2; text-decoration: none; padding: 14px 27px; border-radius: 9999px; border: 1px solid rgba(251,248,242,0.7)">See the site plan</a>
 </div>
 </div>
@@ -165,7 +185,7 @@ button:disabled{opacity:.6;cursor:default}
 </div>
 <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(min(340px, 100%), 1fr)); gap: 40px 24px">
 <div style="display: flex; flex-direction: column; gap: 14px">
-<img src="assets/amenity-playhouse.jpg" alt="A musician playing acoustic guitar on stage at the Playhouse Theatre" style="width: 100%; aspect-ratio: 3 / 2; object-fit: cover; display: block; border-radius: 12px">
+<img src="assets/amenity-playhouse.jpg" alt="A four-piece band performing under blue stage lights at the Playhouse" style="width: 100%; aspect-ratio: 3 / 2; object-fit: cover; display: block; border-radius: 12px">
 <h3 style="margin: 0; font-family: Fraunces, Georgia, serif; font-weight: 400; font-size: 24px">The Playhouse</h3>
 <p style="margin: 0; font-size: 16px; line-height: 1.55; color: #32414E">A 250-seat historic theater on site, open since 1949 — concerts, film, comedy and live performance. Dinner at the Barn before the show, then a short walk home.</p>
 </div>
@@ -198,18 +218,7 @@ button:disabled{opacity:.6;cursor:default}
 </div>
 </section>
 
-<section id="care" style="padding: 72px 32px; border-top: 1px solid #D2D4CF">
-<div style="max-width: 1360px; margin: 0 auto; display: grid; grid-template-columns: repeat(auto-fit, minmax(min(440px, 100%), 1fr)); gap: 24px 80px; align-items: center">
-<div style="display: flex; flex-direction: column; gap: 12px">
-<p style="margin: 0; font-family: 'JetBrains Mono', ui-monospace, monospace; font-size: 12px; letter-spacing: 0.22em; text-transform: uppercase; color: #595C3B">Care on site</p>
-<h2 style="margin: 0; font-family: Fraunces, Georgia, serif; font-weight: 400; font-size: clamp(28px, 3vw, 40px); line-height: 1.08; letter-spacing: -0.015em; text-wrap: balance">Support for <em style="font-style: italic; color: #595C3B">every season of life.</em></h2>
-</div>
-<div style="display: flex; flex-direction: column; gap: 18px; align-items: flex-start">
-<p style="margin: 0; font-size: 17px; line-height: 1.6; color: #32414E; text-wrap: pretty">Whether you're staying well day to day, recovering from an injury or surgery, or caring for someone you love, support is built into the community — so needing more never has to mean leaving.</p>
-<a href="care.html" class="wl-toggle" style="display: inline-flex; align-items: center; gap: 12px; font-family: Poppins, Inter, sans-serif; font-weight: 500; font-size: 13px; letter-spacing: 1.8px; text-transform: uppercase; color: #1A2530; text-decoration: none; padding: 13px 24px; border-radius: 9999px; border: 1px solid #1A2530">Learn more about care <span aria-hidden="true">→</span></a>
-</div>
-</div>
-</section>
+
 
 <section id="plans" style="background: #1A2530; color: #FBF8F2; padding: 112px 32px">
 <div style="max-width: 1360px; margin: 0 auto; display: flex; flex-direction: column; gap: 56px">
@@ -230,64 +239,15 @@ button:disabled{opacity:.6;cursor:default}
 </div>
 </div>
 
-<div style="display: flex; flex-direction: column; gap: 12px">
-<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(min(360px, 100%), 1fr)); gap: 16px">
-<img src="assets/ref-residences-1.webp" alt="Charred-board residences with cedar entries among mature trees" style="width: 100%; aspect-ratio: 3 / 2; object-fit: cover; display: block; border-radius: 12px">
-<img src="assets/ref-residences-2.webp" alt="Residence exterior with cedar balcony" style="width: 100%; aspect-ratio: 3 / 2; object-fit: cover; display: block; border-radius: 12px">
-<img src="assets/ref-interior.webp" alt="Bright interior living space" style="width: 100%; aspect-ratio: 3 / 2; object-fit: cover; display: block; border-radius: 12px">
+<figure style="margin: 0; display: flex; flex-direction: column; gap: 12px">
+<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(min(440px, 100%), 1fr)); gap: 16px">
+<img src="assets/render-lane.jpg" alt="Basecamp homes along a brick-paved lane with gardens and garages" style="width: 100%; aspect-ratio: 3 / 2; object-fit: cover; display: block; border-radius: 12px">
+<img src="assets/render-cottage.jpg" alt="A two-story Basecamp home with large windows and a carport" style="width: 100%; aspect-ratio: 3 / 2; object-fit: cover; display: block; border-radius: 12px">
 </div>
-<p style="margin: 0; font-family: 'JetBrains Mono', ui-monospace, monospace; font-size: 11px; letter-spacing: 0.06em; color: #A9B4BF">Design reference imagery — Basecamp renderings coming soon</p>
-</div>
-
-<figure style="margin: 0; display: flex; flex-direction: column; gap: 16px">
-<div style="position: relative; aspect-ratio: 2212 / 1356; border-radius: 12px; overflow: hidden; background: #24323F">
-<img src="assets/siteplan-aerial.jpg" alt="Concept site plan: building footprints and a looping lane drawn over the Basecamp parcel at the north edge of the Allenberry campus" style="position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; display: block">
-<svg viewBox="0 0 2212 1356" preserveAspectRatio="none" aria-hidden="true" style="position: absolute; inset: 0; width: 100%; height: 100%">
-<path d="M0 0H2212V1356H0Z M571 292 L1407 8 L1566 8 L1845 810 L1500 827 L1264 648 L832 674 L732 734 Z" fill="#F4F1EA" fill-opacity="0.58" fill-rule="evenodd"></path>
-<path d="M1263 84 C1300 220 1320 330 1350 430 C1385 560 1420 690 1480 760 C1560 820 1680 800 1745 690 C1790 600 1775 480 1750 400 C1720 280 1700 170 1660 100 C1620 50 1520 50 1440 70" fill="none" stroke="#2C2A26" stroke-opacity="0.78" stroke-width="26" stroke-linecap="round"></path>
-<g fill="#FBF8F2" stroke="#1A2530" stroke-width="4">
-<rect x="778" y="309" width="54" height="152" rx="4"></rect>
-<rect x="901" y="226" width="54" height="152" rx="4" transform="rotate(-45 928 302)"></rect>
-<rect x="1056" y="226" width="54" height="152" rx="4"></rect>
-<rect x="1182" y="171" width="54" height="152" rx="4" transform="rotate(-45 1209 247)"></rect>
-<rect x="1175" y="335" width="54" height="152" rx="4" transform="rotate(-70 1202 411)"></rect>
-<rect x="731" y="480" width="54" height="152" rx="4" transform="rotate(-45 758 556)"></rect>
-<rect x="1262" y="480" width="54" height="152" rx="4" transform="rotate(20 1289 556)"></rect>
-<rect x="1392" y="208" width="54" height="152" rx="4"></rect>
-<rect x="1551" y="160" width="54" height="152" rx="4" transform="rotate(-45 1578 236)"></rect>
-<rect x="1471" y="415" width="54" height="152" rx="4" transform="rotate(-35 1498 491)"></rect>
-<rect x="1608" y="353" width="54" height="152" rx="4"></rect>
-</g>
-<polygon points="571,292 1407,8 1566,8 1845,810 1500,827 1264,648 832,674 732,734" fill="none" stroke="#C5C9A4" stroke-width="8" stroke-linejoin="round"></polygon>
-</svg>
-</div>
-<figcaption style="display: flex; flex-wrap: wrap; gap: 12px 32px; font-family: 'JetBrains Mono', ui-monospace, monospace; font-size: 12px; color: #D9DEE2">
-<span style="color: #FBF8F2">Site plan</span>
-<span style="display: flex; align-items: center; gap: 10px"><span style="width: 22px; height: 0; border-top: 3px solid #C5C9A4"></span>Basecamp parcel</span>
-<span style="display: flex; align-items: center; gap: 10px"><span style="width: 10px; height: 18px; background: #FBF8F2; border: 2px solid #1A2530; border-radius: 2px"></span>Residences</span>
-<span style="display: flex; align-items: center; gap: 10px"><span style="width: 22px; height: 6px; background: #8A8F86; border-radius: 3px"></span>Lane</span>
-<span>Conceptual — subject to change</span>
-</figcaption>
+<figcaption style="font-family: 'JetBrains Mono', ui-monospace, monospace; font-size: 11px; letter-spacing: 0.06em; color: #A9B4BF">Conceptual renderings — subject to change</figcaption>
 </figure>
 
-<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(min(440px, 100%), 1fr)); gap: 24px">
-<div style="display: flex; flex-direction: column; gap: 20px; background: #FBF8F2; color: #1A2530; padding: 32px; border-radius: 12px">
-<div style="display: flex; flex-wrap: wrap; justify-content: space-between; align-items: baseline; gap: 8px 16px">
-<h3 style="margin: 0; font-family: Fraunces, Georgia, serif; font-weight: 400; font-size: 30px">The Cottage</h3>
-<span style="font-family: 'JetBrains Mono', ui-monospace, monospace; font-size: 11px; letter-spacing: 0.18em; text-transform: uppercase; color: #5A6572">Smaller home</span>
-</div>
-<div style="aspect-ratio: 4 / 3; border: 2px dashed #A9B4BF; border-radius: 8px; display: flex; align-items: center; justify-content: center; font-family: 'JetBrains Mono', ui-monospace, monospace; font-size: 12px; color: #5A6572">[FLOOR PLAN]</div>
-<p style="margin: 0; font-size: 16px; color: #32414E">[BEDS] bed · [BATHS] bath · [SQ FT] sq ft · from [PRICE]</p>
-</div>
-<div style="display: flex; flex-direction: column; gap: 20px; background: #FBF8F2; color: #1A2530; padding: 32px; border-radius: 12px">
-<div style="display: flex; flex-wrap: wrap; justify-content: space-between; align-items: baseline; gap: 8px 16px">
-<h3 style="margin: 0; font-family: Fraunces, Georgia, serif; font-weight: 400; font-size: 30px">The Residence + Suite</h3>
-<span style="font-family: 'JetBrains Mono', ui-monospace, monospace; font-size: 11px; letter-spacing: 0.18em; text-transform: uppercase; color: #5A6572">Larger home</span>
-</div>
-<div style="aspect-ratio: 4 / 3; border: 2px dashed #A9B4BF; border-radius: 8px; display: flex; align-items: center; justify-content: center; font-family: 'JetBrains Mono', ui-monospace, monospace; font-size: 12px; color: #5A6572">[FLOOR PLAN]</div>
-<p style="margin: 0; font-size: 16px; color: #32414E">[BEDS] bed · [BATHS] bath · [SQ FT] sq ft · from [PRICE]</p>
-</div>
-</div>
+
 </div>
 </section>
 
@@ -334,7 +294,6 @@ button:disabled{opacity:.6;cursor:default}
 <footer style="background: #121A22; color: #A9B4BF; padding: 40px 32px">
 <div style="max-width: 1360px; margin: 0 auto; display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 16px 32px; font-family: 'JetBrains Mono', ui-monospace, monospace; font-size: 12px; letter-spacing: 0.06em">
 <img src="assets/allenberry-logo-white.webp" alt="Allenberry" style="height: 44px; width: auto; display: block">
-<span>Basecamp at Allenberry · Boiling Springs, PA</span>
 <span>Pricing and plans subject to change.</span>
 </div>
 </footer>
@@ -389,7 +348,7 @@ button:disabled{opacity:.6;cursor:default}
 
     var props = utm();
     var payload = { data: { type: "subscription", attributes: {
-      custom_source: "Basecamp Landing Page",
+      custom_source: "Basecamp Website",
       profile: { data: { type: "profile", attributes: Object.assign(
         { email: email, first_name: first, last_name: last },
         Object.keys(props).length ? { properties: props } : {}) } }

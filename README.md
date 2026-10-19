@@ -1,11 +1,11 @@
 # Basecamp at Allenberry
 
-Website for Basecamp at Allenberry, a multigenerational community of homes on the grounds of Allenberry Resort & Spa in Boiling Springs, PA.
+Website for Basecamp at Allenberry, a multigenerational community of homes on the grounds of the historic Allenberry Resort in Boiling Springs, PA.
 
-It's a static site with two pages and no build step:
+It's a static site with no build step and two pages:
 
 - `index.html`: the landing page
-- `care.html`: the Care page
+- `care.html`: the Wellness & Care page
 
 ## Preview locally
 
@@ -26,15 +26,14 @@ There are two ways to deploy:
 See the TODO list in `CLAUDE.md`. The main items are:
 
 - Klaviyo keys
-- Basecamp renderings to replace the reference imagery
-- Care page photos
-- Floor plans and site plan
-- Confirming pricing, timing and service claims
+- the architect's site plan and floor plans
+- a full-resolution footer logo
+- confirming pricing, timing and service claims
 
 ## Working with Claude Code
 
 Open this folder in Claude Code. `CLAUDE.md` covers the page structure, positioning, brand tokens, client copy rules and open items, so you can ask for changes directly. For example:
 
-- "add the floor plans for The Cottage"
-- "drop in the care photos from /photos"
+- "add the site plan to the Plans section"
 - "hook up Klaviyo with these keys"
+- "build a compact mobile menu"
