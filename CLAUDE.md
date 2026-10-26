@@ -20,6 +20,7 @@ care.html      Wellness & Care page (linked from the Wellness & care band on ind
 assets/
   basecamp-logo-white.webp     Basecamp at Allenberry logo, header of both pages
   allenberry-logo-white.webp   Allenberry resort logo, footer (240px; replace with full-res)
+  orvis-endorsed.webp          Orvis Endorsed Fly-Fishing Lodge badge, under the "already here" heading
   favicon.png, apple-touch-icon.png
   render-aerial.jpg            landing hero: CONCEPTUAL RENDERING
   render-street.jpg            Why Basecamp image: CONCEPTUAL RENDERING
