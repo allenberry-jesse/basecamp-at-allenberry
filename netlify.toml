@@ -24,3 +24,14 @@
   for = "/*.html"
   [headers.values]
     Cache-Control = "public, max-age=0, must-revalidate"
+
+# v2 folded care.html into the landing page; keep old links working
+[[redirects]]
+  from = "/care.html"
+  to = "/#care"
+  status = 301
+
+[[redirects]]
+  from = "/care"
+  to = "/#care"
+  status = 301
