@@ -1,133 +1,121 @@
-# Basecamp at Allenberry: website
+# Basecamp at Allenberry: landing page v2
 
-A two-page marketing site for **Basecamp at Allenberry**, a multigenerational community of homes on the grounds of the historic Allenberry Resort in Boiling Springs, PA. It is static HTML with no build step and deploys on Netlify (see `netlify.toml`).
+A single landing page for **Basecamp at Allenberry**, a community of homes on the grounds of the historic Allenberry Resort in Boiling Springs, PA. It's static HTML with no build step, deployed on Netlify (see `netlify.toml`).
 
-**Positioning, in priority order:**
+v2 replaces the two-page v1 site (landing page plus `care.html`). All of the care content now lives on this one page.
 
-1. **The homes come first.** The architecture, integrated suites, elevators and flexible living arrangements are the main selling points.
-2. **The resort lifestyle is the setting.** Everything people come to Allenberry for is already here.
-3. **Wellness is about living well every day,** not only when you're sick. Care is an optional benefit, so it sits lower on the landing page and has its own page.
+## Audience and goal
 
-Basecamp is a place people choose for how they want to live, not for how old they are. The community is an extension of your family, and a better answer to conventional senior living.
+The page is for **potential buyers**. It introduces the concept and measures interest through the "Register your interest" form. It is not a sales page: leave detailed pricing off.
 
-"Basecamp" means your home base, where every adventure begins and where you always feel at home. Keep the tone optimistic and never use anxious framing like "the scary ones."
+## Positioning
 
-## Files
-
-```
-index.html     landing page (inline styles + Klaviyo waitlist <script> at the bottom)
-care.html      Wellness & Care page (linked from the Wellness & care band on index.html)
-assets/
-  basecamp-logo-white.webp     Basecamp at Allenberry logo, header of both pages
-  allenberry-logo-white.webp   Allenberry resort logo, footer (240px; replace with full-res)
-  orvis-endorsed.webp          Orvis Endorsed Fly-Fishing Lodge badge, under the "already here" heading
-  favicon.png, apple-touch-icon.png
-  render-aerial.jpg            landing hero: CONCEPTUAL RENDERING
-  render-street.jpg            Why Basecamp image: CONCEPTUAL RENDERING
-  render-residence.jpg         Residences image: CONCEPTUAL RENDERING
-  render-lane.jpg, render-cottage.jpg   Plans section: CONCEPTUAL RENDERINGS
-  amenity-*.jpg                six Allenberry amenity photos
-  care-hero-walk.jpg           Care page hero
-  creek-golden-hour.jpg        Care page, acute safety net section
-docs/   screenshots of the approved design (landing + care, desktop + mobile)
-```
+- **Lead with the difference.** Concierge health and wellness is built into where you live, in a community where you own the home, with resort amenities on the property. Nothing else offers all three.
+- **Fill the gap.** Basecamp sits between staying in a house that wasn't built for the years ahead and moving into a care community. Never use the words "CCRC" or "missing middle."
+- **Intergenerational, not senior-only.** People of any age can live here, including those who want full healthcare but aren't of senior age. Use the word "intergenerational." Don't list types of people, and don't mention young families. The intro draws on how families used to live, with elders staying at home and part of the community.
+- **Avoid "age in place."** The client tried it in the hero and replaced it with "lifelong living."
+- **Ownership over entrance fees.** You invest in a home you keep, not an entrance fee and monthly fees you never get back. Don't do a dollar-for-dollar comparison.
+- **Tone:** bold and optimistic. No anxious or "scary" framing.
 
 ## index.html: section order
 
-1. **Header:** Basecamp logo. Nav: The Homes, Why Basecamp, Living Here, Plans. "Join the waitlist" pill.
-2. **Hero `#top`:** aerial rendering with a bottom-up gradient.
-   - Eyebrow: "Where wellness, nature and community meet"
-   - H1: "The place you love, *now a place to live.*"
-   - Buttons: Join the waitlist, Explore the homes
-   - Keep only the headline and CTAs on the image; longer copy goes in the intro.
-3. **Allenberry, reimagined:** "Everything you come here for is *already here.*" Four paragraphs:
-   - the resort's history and Basecamp as its next chapter
-   - see the place differently (trail, Playhouse, Barn)
-   - neighbors as an extension of your family
-   - a better answer to senior living, built around living well
-4. **Why Basecamp `#why`** (cream):
-   - "Your home base, *for every adventure.*" with a street rendering
-   - "Less upkeep. More life."
-   - "Is it for you? Basecamp is for every generation…" list, ordered by life stage
-5. **Wellness & care band `#care`:** "Live well in *every season of life.*" plus a "Learn more about wellness & care →" link to `care.html`.
-6. **The residences `#residences`** (navy): "A home designed to *evolve with you.*" Rendering, then six cards: Architecture, Integrated suites, Elevators, Flexible living, Ownership, Rental program.
-7. **Living Here `#amenities`:** "Not an amenities package. *Your home.*" A 3×2 photo grid: Playhouse, Fly fishing, Fitness & classes / Spa, Dining, Creekside gathering.
-8. **Plans `#plans`** (navy): "Homes big and small, *in the trees.*" $700s, 2027, and two renderings. **Floor plans and the site plan are on hold until the architect delivers them.**
-9. **Waitlist `#waitlist`:** copy, a "Try it first" midweek-stay block, and the form (first name, last name, email).
-10. **Footer:** Allenberry logo and "Pricing and plans subject to change."
+1. **Header:** Basecamp logo. Nav: The Homes, Why Basecamp, Wellness & Care, Living Here, Plans. "Register interest" pill.
+2. **Hero `#top`:** aerial rendering.
+   - H1: "Basecamp *at Allenberry*"
+   - Subhead: "Not Just A New Community. *A New Concept In Lifelong Living.*" (title case is the client's choice)
+   - Buttons: Register interest, Explore the homes
+3. **Intro `#different`** (page background): "Concierge health and wellness, *built into where you live.*"
+   - Two paragraphs: the gap between staying in your house and moving for care; Basecamp as your home base, an intergenerational neighborhood.
+   - Wide street rendering below.
+4. **Wellness & care `#care`** (cream): "Care that *comes to you.*"
+   - Two intro paragraphs
+   - Golden-hour stroll photo
+5. **Partners `#care-partners`** (cream): "World-class partners. *Care close to home.*" Burick Center and PAM Health cards, then:
+   - Green box: "Concierge medicine, *for every resident.*" The membership comes with every home, with the annual fee paid through HOA dues.
+   - "What concierge care *really means.*" Three cards covering only what the membership includes: direct physician access, the annual whole-health evaluation, and longevity programming.
+6. **More support `#care-package`** (cream): "More support, *only if you want it.*" Six optional cards: home check-ups and same-day care (Primary Care Plus), the 24/7 PAM nurse navigator, therapy and rehab, help at home, and housekeeping and laundry. Keep anything beyond the three membership items here.
+7. **Own the asset `#care-costs`** (paper, rule below): "Own the asset, *skip the entrance fee.*" Two cards with no dollar figures: a typical care community vs. Basecamp.
+9. **The caregiver gap `#care-families`:** hidden for now (`hidden` attribute). The client may bring it back.
+10. **Residences `#residences`** (navy): "A home you own, *built for every chapter.*"
+    - Stats (`#plans`): $700s, 2027
+    - Residence rendering
+    - Three cards: Architecture, Integrated suites, Elevators
+11. **Living Here `#amenities`:** six amenity photos. The Playhouse, Fly fishing, Fitness & classes, The Spa, Dining, Creekside gathering.
+12. **Register interest `#waitlist`:** "Could you see yourself *here?*", the "Try it first" trial-stay block, and the form.
+13. **Footer:** Allenberry logo and "Pricing and plans subject to change."
 
-## care.html: section order
+Spacing: each section has 96px of top and bottom padding. The exception is the cream care block (`#care`, `#care-partners`, `#care-package`), which uses 48px between its parts so it reads as one block.
 
-1. **Header:** same as index; nav links point to `index.html#…`.
-2. **Hero `#care-top`:**
-   - Photo with a bottom-up gradient
-   - "← Back to Basecamp" link
-   - H1: "Live well in / *every season / of life.*" (forced line breaks keep it clear of the people in the photo)
-   - Buttons: Join the waitlist, Explore the continuum of care
-3. **Wellness & care `#care-continuum`:**
-   - Heading: "A better way to live: *mind, body and community.*" with two intro paragraphs
-   - Then the "The Basecamp continuum of care" label
-   - Then the "Most days, residents only use Level 1…" quote
-   - Then five stepped levels: Everyday wellness, Proactive health, Support at home, Recovery & respite, Acute care. Each lists Who / How / Where.
-4. **The acute safety net `#care-partners`:** "Priority care when it matters, *and a clear path home.*" Steps 01–03 (Expedited placement, Specialized care, Recovery at home) beside the creek photo.
-5. **The caregiver gap `#care-families`** (navy): "Built for *the family caregiver.*" Three cards: Multigenerational homes, Respite capacity, Care on demand.
-6. **CTA band** (logo green): Join the waitlist (`index.html#waitlist`) and Plan a trial stay.
-7. **Footer:** "Care services are in development. Details subject to change."
+## Copy rules from the client
+
+- **Membership price:** the concierge medicine membership is $250 per person per month, an annual fee paid through HOA dues. Say it "comes with every home," not that it's free or "included" at no cost. The client removed the price from the page, so don't add it back unless asked.
+- **Partners:** naming PAM Health and the Burick Center is approved for v2. This reverses the v1 rule. Keep confidential partnership terms (pricing, revenue share, contract details) off the site.
+- **Removed copy, don't bring back:**
+  - "Other communities make you choose"
+  - "Less upkeep, more life"
+  - "Is it for you?"
+  - "Allenberry, reimagined"
+  - the resident journey
+  - the care ladder
+  - the acute safety net section (its points now live in the "Recover in your own living room" card)
+  - the "Flexible living," "Ownership" and "Rental program" cards
+  - "One care plan per household"
+  - all eyebrow labels
+- **Names:** always write "The Playhouse" and "The Spa" with a capital T. Don't say "Allenberry Hotel."
+- **Don't repeat "Imagine"** as a card lead-in.
+- **"Where you live"** should appear only once, in the intro headline.
+- **Dining:** the restaurants are the Barn, Breeches Café and the Terrace.
+- **Investor-only content:** keep investor language off the site.
 
 ## Brand
 
 | Token | Value | Use |
 |---|---|---|
-| Logo green (accent) | `#595C3B` | buttons, eyebrows and italic accents on light backgrounds; care CTA band |
-| Sage | `#C5C9A4` | italic accents and eyebrows on navy or photos |
-| Navy | `#1A2530` | text, header, dark sections |
-| Navy card | `#24323F` | cards on navy |
+| Logo green (accent) | `#595C3B` | buttons, italic accents on light backgrounds, membership box |
+| Sage | `#C5C9A4` | italic accents on navy or photos |
+| Navy | `#1A2530` | text, header, dark sections, Basecamp cost card |
 | Paper | `#F4F1EA` / `#FBF8F2` | page / raised surfaces |
-| Cream | `#E8E2D2` | Why Basecamp, continuum level 1 |
+| Cream | `#E8E2D2` | care block |
 | Ink soft | `#32414E` | body copy |
 | Muted | `#5A6572` | small labels |
 | Rule | `#D2D4CF` | dividers |
 
-**Type** (all from Google Fonts):
+**Type** (Google Fonts):
 
-- **Fraunces** for display, weight 400. Each heading has one italic `<em>` accent phrase.
+- **Fraunces 400** for display. Each heading has one italic `<em>` accent phrase.
 - **Inter** for body copy.
-- **JetBrains Mono** for uppercase eyebrows, with 0.22em letter spacing.
-- **Poppins 500** for uppercase pill buttons: 13px, 1.8px letter spacing, radius 9999px.
+- **JetBrains Mono** for small uppercase labels only.
+- **Poppins 500** for uppercase pill buttons: 13px, 1.8px letter spacing.
 
-## Copy rules from the client
+## Register-interest form → Klaviyo
 
-- **Partners:** never name PAM Health, York College or Burick on the site. Describe the acute partner generically ("a major healthcare provider — a leading operator of long-term acute care and inpatient rehabilitation hospitals"). The partner section was intentionally removed.
-- **Students:** don't say students live on site.
-  - The continuum says "Health-care students."
-  - The safety net says "nursing students."
-  - The client hasn't confirmed which term to use.
-- **Wellness language:** frame wellness as daily life, never as being sick. Aging-in-place language stays limited to the care content.
-- **Dining:** don't say "the table." The restaurants are the Barn, Breeches Café and the Terrace.
-- **The Playhouse:** call it a "historic theater."
-- **Homes:** say "homes," never "many homes." Every home is described as having an integrated suite and an elevator. Confirm this against the architect's plans.
-- **Removed copy:** "this place has so much potential" and "Basecamp at Allenberry · Boiling Springs, PA" in the footer were both removed. Don't bring them back.
-- **Investor-only content:** keep investor language (revenue lines, rental revenue, "what sets Basecamp apart") off the site.
+The form (`#waitlist-form`) collects:
+
+- **Required:** first name, last name, email.
+- **Optional:** "How would you use a home here?" (`home_use`), "When might you consider a move?" (`timeline`), "What interests you most?" checkboxes (`interests`), and "I want to schedule a trial stay" (`trial_stay`). The "Plan a trial stay" button scrolls to the form and ticks that box; it does not go to the booking engine.
+
+The script at the bottom of `index.html` sends a Klaviyo subscription. The optional answers go on the profile as `basecamp_home_use`, `basecamp_timeline` and `basecamp_interests`, `basecamp_trial_stay`, along with any UTM parameters, using source "Basecamp Website v2".
+
+Until the keys are set, the form shows the success state but sends nothing.
 
 ## TODO before launch
 
-- [ ] **Klaviyo:** set `KLAVIYO_PUBLIC_KEY` and `KLAVIYO_LIST_ID` in the `<script>` at the bottom of `index.html`, and confirm the API `revision`. Until then the form shows the success state but sends nothing.
-- [ ] **Footer logo:** replace with a full-resolution Allenberry logo.
-- [ ] **Site plan and floor plans:** add the architect's site plan and floor plans to `#plans` once delivered.
-- [ ] **Renderings:** confirm they're final, or swap in updated ones. Keep the "Conceptual rendering" captions.
+- [ ] **Klaviyo:** set `KLAVIYO_PUBLIC_KEY` and `KLAVIYO_LIST_ID`, and confirm the API `revision` date.
+- [ ] **Orvis logo:** add it to the Fly fishing card and confirm the approved wording for the relationship. The Orvis Endorsed badge used in v1 is still in `assets/orvis-endorsed.webp`; confirm with the client whether it's the official file.
+- [ ] **Disclaimer:** consider a footer note. Care services are in development, pricing is subject to change, and covered services are billed to the resident's insurance.
 - [ ] **Verify claims:**
   - $700s pricing and 2027 timing
-  - exterior maintenance
-  - amenity access
-  - the rental program
-  - a suite and elevator in every home
-  - care services and partner terms
-- [ ] **Trial stay link:** currently `https://allenberry.com/stay`. Swap it for a dedicated midweek booking link if one exists.
-- [ ] **Mobile nav:** links wrap under ~420px. Consider a compact menu.
+  - membership inclusion
+  - partner services
+  - the suite and elevator in every home
+- [ ] **Assets:**
+  - footer logo: swap in a full-resolution Allenberry logo
+  - renderings: confirm they're final, and keep the "Conceptual rendering" captions
+- [ ] **Mobile nav:** links wrap on narrow phones. Consider a compact menu.
 
 ## Working notes
 
-- **Styles are inline,** because the pages were built in a visual editor. If you refactor to shared CSS, keep the tokens above and compare 1440px and 390px widths against `docs/`.
-- **Responsive grids** use `repeat(auto-fit, minmax(min(Npx, 100%), 1fr))` so they collapse to one column on phones.
-- **Hero darkening on phones:** both heroes use a `.care-hero-shade` overlay, which a `max-width: 760px` media query strengthens.
-- **Shared header and footer:** keep them identical on both pages.
+- **Inline styles:** the page was built in a visual editor, so styles are inline. If you refactor to shared CSS, keep the tokens above and compare 1440px and 390px widths against `docs/`.
+- **Responsive grids** use `repeat(auto-fit, minmax(min(Npx, 100%), 1fr))` so they collapse on phones.
+- **Old care page:** `netlify.toml` redirects `/care.html` and `/care` to `/#care`.
+- **Unused v1 assets:** `render-lane.jpg`, `render-cottage.jpg`, `care-hero-walk.jpg` and `creek-golden-hour.jpg` were intentionally dropped from v2.
