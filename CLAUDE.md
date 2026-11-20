@@ -96,11 +96,11 @@ The form (`#waitlist-form`) collects:
 
 The script at the bottom of `index.html` sends a Klaviyo subscription. The optional answers go on the profile as `basecamp_home_use`, `basecamp_timeline` and `basecamp_interests`, `basecamp_trial_stay`, along with any UTM parameters, using source "Basecamp Website v2".
 
-Until the keys are set, the form shows the success state but sends nothing.
+The keys are set, so live submissions go to the Klaviyo list.
 
 ## TODO before launch
 
-- [ ] **Klaviyo:** set `KLAVIYO_PUBLIC_KEY` and `KLAVIYO_LIST_ID`, and confirm the API `revision` date.
+- [x] **Klaviyo:** public key `TjnXN7` and list `RnJtAH` are set. A test submission returned 202. Confirm the API `revision` date is still supported.
 - [ ] **Orvis logo:** add it to the Fly fishing card and confirm the approved wording for the relationship. The Orvis Endorsed badge used in v1 is still in `assets/orvis-endorsed.webp`; confirm with the client whether it's the official file.
 - [ ] **Disclaimer:** consider a footer note. Care services are in development, pricing is subject to change, and covered services are billed to the resident's insurance.
 - [ ] **Verify claims:**
