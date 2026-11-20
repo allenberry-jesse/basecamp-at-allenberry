@@ -13,7 +13,7 @@ The page is for **potential buyers**. It introduces the concept and measures int
 - **Lead with the difference.** Concierge health and wellness is built into where you live, in a community where you own the home, with resort amenities on the property. Nothing else offers all three.
 - **Fill the gap.** Basecamp sits between staying in a house that wasn't built for the years ahead and moving into a care community. Never use the words "CCRC" or "missing middle."
 - **Intergenerational, not senior-only.** People of any age can live here, including those who want full healthcare but aren't of senior age. Use the word "intergenerational." Don't list types of people, and don't mention young families. The intro draws on how families used to live, with elders staying at home and part of the community.
-- **Avoid "age in place."** The client tried it in the hero and replaced it with "lifelong living."
+- **"Aging in place" is back.** The client first replaced it with "lifelong living," then restored it in the hero subhead and the register-interest intro. Don't add it anywhere else without asking.
 - **Ownership over entrance fees.** You invest in a home you keep, not an entrance fee and monthly fees you never get back. Don't do a dollar-for-dollar comparison.
 - **Tone:** bold and optimistic. No anxious or "scary" framing.
 
@@ -22,7 +22,7 @@ The page is for **potential buyers**. It introduces the concept and measures int
 1. **Header:** Basecamp logo. Nav: The Homes, Why Basecamp, Wellness & Care, Living Here, Plans. "Register interest" pill.
 2. **Hero `#top`:** aerial rendering.
    - H1: "Basecamp *at Allenberry*"
-   - Subhead: "Not Just A New Community. *A New Concept In Lifelong Living.*" (title case is the client's choice)
+   - Subhead: "Healthy living and aging in place, *reimagined.*"
    - Buttons: Register interest, Explore the homes
 3. **Intro `#different`** (page background): "Concierge health and wellness, *built into where you live.*"
    - Two paragraphs: the gap between staying in your house and moving for care; Basecamp as your home base, an intergenerational neighborhood.
