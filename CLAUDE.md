@@ -31,9 +31,9 @@ The page is for **potential buyers**. It introduces the concept and measures int
    - Two intro paragraphs
    - Golden-hour stroll photo
 5. **Partners `#care-partners`** (cream): "World-class partners. *Care close to home.*" Burick Center and PAM Health cards, then:
-   - Green box: "Concierge medicine, *for every resident.*" The membership comes with every home, with the annual fee paid through HOA dues.
+   - Green box: "Concierge medicine, *for every resident.*" The membership comes with every home.
    - "What concierge care *really means.*" Three cards covering only what the membership includes: direct physician access, the annual whole-health evaluation, and longevity programming.
-6. **More support `#care-package`** (cream): "More support, *only if you want it.*" Six optional cards: home check-ups and same-day care (Primary Care Plus), the 24/7 PAM nurse navigator, therapy and rehab, help at home, and housekeeping and laundry. Keep anything beyond the three membership items here.
+6. **More support `#care-package`** (cream): "More support, *only if you need it.*" Seven optional cards: home check-ups and same-day care (Primary Care Plus), the PAM Health nurse on call, recovery at home, hyperbaric therapy at The Spa, help at home, and housekeeping and laundry. No footnote. Keep anything beyond the three membership items here.
 7. **Own the asset `#care-costs`** (paper, rule below): "Own the asset, *skip the entrance fee.*" Two cards with no dollar figures: a typical care community vs. Basecamp.
 9. **The caregiver gap `#care-families`:** hidden for now (`hidden` attribute). The client may bring it back.
 10. **Residences `#residences`** (navy): "A home you own, *built for every chapter.*"
@@ -48,7 +48,9 @@ Spacing: each section has 96px of top and bottom padding. The exception is the c
 
 ## Copy rules from the client
 
-- **Membership price:** the concierge medicine membership is $250 per person per month, an annual fee paid through HOA dues. Say it "comes with every home," not that it's free or "included" at no cost. The client removed the price from the page, so don't add it back unless asked.
+- **Membership price:** the concierge medicine membership is $250 per person per month, an annual fee paid through HOA dues. Say it "comes with every home," not that it's free or "included" at no cost. The client removed the price, the HOA-dues mention and the "additional cost" footnote from the page, so don't add them back unless asked.
+- **No "24/7":** the client removed it from the PAM Health nurse navigator copy. Don't promise round-the-clock access.
+- **Burick:** "19 years of experience in concierge functional medicine."
 - **Partners:** naming PAM Health and the Burick Center is approved for v2. This reverses the v1 rule. Keep confidential partnership terms (pricing, revenue share, contract details) off the site.
 - **Removed copy, don't bring back:**
   - "Other communities make you choose"
