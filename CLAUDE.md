@@ -30,7 +30,7 @@ The page is for **potential buyers**. It introduces the concept and measures int
 4. **Wellness & care `#care`** (cream): "Care that *comes to you.*"
    - Two intro paragraphs
    - Golden-hour stroll photo
-5. **Partners `#care-partners`** (cream): "World-class partners. *Care close to home.*" Burick Center and PAM Health cards, then:
+5. **Partners `#care-partners`** (cream): "World-class partners. *Care close to home.*" Three partner cards (Burick Center, PAM Health, Choice Health At Home), then:
    - Green box: "Concierge medicine, *for every resident.*" The membership comes with every home.
    - "What concierge care *really means.*" Three cards covering only what the membership includes: direct physician access, the annual whole-health evaluation, and longevity programming.
 6. **More support `#care-package`** (cream): "More support, *only if you need it.*" Seven optional cards: home check-ups and same-day care (Primary Care Plus), the PAM Health nurse on call, recovery at home, hyperbaric therapy at The Spa, help at home, and housekeeping and laundry. No footnote. Keep anything beyond the three membership items here.
@@ -51,7 +51,7 @@ Spacing: each section has 96px of top and bottom padding. The exception is the c
 - **Membership price:** the concierge medicine membership is $250 per person per month, an annual fee paid through HOA dues. Say it "comes with every home," not that it's free or "included" at no cost. The client removed the price, the HOA-dues mention and the "additional cost" footnote from the page, so don't add them back unless asked.
 - **No "24/7":** the client removed it from the PAM Health nurse navigator copy. Don't promise round-the-clock access.
 - **Burick:** "19 years of experience in concierge functional medicine."
-- **Partners:** naming PAM Health and the Burick Center is approved for v2. This reverses the v1 rule. Keep confidential partnership terms (pricing, revenue share, contract details) off the site.
+- **Partners:** naming PAM Health, the Burick Center and Choice Health At Home is approved for v2. Choice is Basecamp's designated home care partner. This reverses the v1 rule. Keep confidential partnership terms (pricing, revenue share, contract details) off the site.
 - **Removed copy, don't bring back:**
   - "Other communities make you choose"
   - "Less upkeep, more life"
