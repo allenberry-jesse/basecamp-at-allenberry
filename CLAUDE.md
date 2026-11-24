@@ -30,10 +30,10 @@ The page is for **potential buyers**. It introduces the concept and measures int
 4. **Wellness & care `#care`** (cream): "Care that *comes to you.*"
    - Two intro paragraphs
    - Golden-hour stroll photo
-5. **Partners `#care-partners`** (cream): "World-class partners. *Care close to home.*" Three partner cards (Burick Center, PAM Health, Choice Health At Home), then:
-   - Green box: "Concierge medicine, *for every resident.*" The membership comes with every home.
+5. **Partners `#care-partners`** (cream): "World-class partners. *Care close to home.*" Three partner cards (Burick Center, PAM Health, Choice Health At Home), each with the partner's logo (`assets/logo-burick.webp`, `logo-pam.webp`, `logo-choice.webp`) and copy kept roughly equal in length, then:
+   - Green box: "Concierge medicine, *for every resident.*" "A Burick Center concierge health membership is included in the cost of every home."
    - "What concierge care *really means.*" Three cards covering only what the membership includes: direct physician access, the annual whole-health evaluation, and longevity programming.
-6. **More support `#care-package`** (cream): "More support, *only if you need it.*" Seven optional cards: home check-ups and same-day care (Primary Care Plus), the PAM Health nurse on call, recovery at home, hyperbaric therapy at The Spa, help at home, and housekeeping and laundry. No footnote. Keep anything beyond the three membership items here.
+6. **More support `#care-package`** (cream): "More support, *only if you need it.*\*" Six optional cards in two rows of three, kept roughly equal in length: check-ups and same-day care, the PAM Health nurse navigator, recovery at home, help at home, hyperbaric therapy, and housekeeping and laundry. Footnote under the cards: "\* These services come at an additional cost, and may be paid directly, or covered by Medicare, Medicaid or insurance, depending on the service." Keep anything beyond the three membership items here.
 7. **Own the asset `#care-costs`** (paper, rule below): "Own the asset, *skip the entrance fee.*" Two cards with no dollar figures: a typical care community vs. Basecamp.
 9. **The caregiver gap `#care-families`:** hidden for now (`hidden` attribute). The client may bring it back.
 10. **Residences `#residences`** (navy): "A home you own, *built for every chapter.*"
@@ -48,9 +48,8 @@ Spacing: each section has 96px of top and bottom padding. The exception is the c
 
 ## Copy rules from the client
 
-- **Membership price:** the concierge medicine membership is $250 per person per month, an annual fee paid through HOA dues. Say it "comes with every home," not that it's free or "included" at no cost. The client removed the price, the HOA-dues mention and the "additional cost" footnote from the page, so don't add them back unless asked.
+- **Membership price:** the concierge medicine membership costs $3,000 a year and is built into the home's purchase price. There is no monthly fee and nothing paid through HOA dues. Say it's "included in the cost of every home" (or "comes with every home"); never imply it's free, and never mention a monthly or HOA fee for it. Keep the dollar figure off the page unless asked.
 - **No "24/7":** the client removed it from the PAM Health nurse navigator copy. Don't promise round-the-clock access.
-- **Burick:** "19 years of experience in concierge functional medicine."
 - **Partners:** naming PAM Health, the Burick Center and Choice Health At Home is approved for v2. Choice is Basecamp's designated home care partner. This reverses the v1 rule. Keep confidential partnership terms (pricing, revenue share, contract details) off the site.
 - **Removed copy, don't bring back:**
   - "Other communities make you choose"
