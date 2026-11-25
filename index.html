@@ -37,8 +37,9 @@ section:not(#top)>div{row-gap:36px !important}
 }
 .nav-toggle{display:none}
 @media (max-width: 1080px){
-.site-head{padding:12px 20px !important}
+.site-head{padding:12px 20px !important;column-gap:12px !important}
 .site-head img{height:56px !important}
+.site-place{margin-left:12px !important;padding-left:12px !important;font-size:10px !important;letter-spacing:.06em !important}
 .nav-toggle{display:flex;flex-direction:column;justify-content:center;gap:6px;width:48px;height:48px;padding:12px;margin:0;background:transparent;border:1px solid rgba(251,248,242,.35);border-radius:9999px;cursor:pointer}
 .nav-toggle span{display:block;height:2px;width:100%;background:#FBF8F2;border-radius:2px;transition:transform .2s,opacity .2s}
 .site-header.nav-open .nav-toggle span:nth-child(1){transform:translateY(8px) rotate(45deg)}
@@ -59,6 +60,7 @@ section:not(#top)>div{row-gap:36px !important}
 <div class="site-head" style="max-width: 1360px; margin: 0 auto; padding: 14px 32px; display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 16px 32px">
 <a href="#top" aria-label="Basecamp at Allenberry — home" style="display: flex; align-items: center; color: #FBF8F2; text-decoration: none">
 <img src="assets/basecamp-logo-white.webp" alt="Basecamp at Allenberry" style="height: 68px; width: auto; display: block">
+<span class="site-place" style="margin-left: 20px; padding-left: 20px; border-left: 1px solid rgba(251,248,242,0.3); font-family: 'JetBrains Mono', ui-monospace, monospace; font-size: 11px; line-height: 1.6; letter-spacing: 0.14em; text-transform: uppercase; color: #C5C9A4">Boiling Springs,<br>Pennsylvania</span>
 </a>
 <button type="button" class="nav-toggle" aria-label="Open menu" aria-expanded="false" aria-controls="site-nav"><span></span><span></span><span></span></button>
 <nav id="site-nav" class="site-nav" aria-label="Primary" style="display: flex; flex-wrap: wrap; align-items: center; gap: 8px 28px; font-size: 15px">
