@@ -24,7 +24,9 @@ summary:hover .wl-toggle,a.wl-toggle:hover{background:#1A2530;color:#FBF8F2!impo
 summary:focus-visible{outline:2px solid #595C3B;outline-offset:6px;border-radius:8px}
 @media (max-width: 760px){.cc-step{margin-left:0 !important;grid-template-columns:40px minmax(0,1fr) !important;padding:22px 20px !important}.cc-step>div:last-child{grid-column:1 / -1}}
 @media (max-width: 760px){.care-hero-shade{background:linear-gradient(180deg, rgba(26,37,48,0.45) 0%, rgba(26,37,48,0.6) 40%, rgba(26,37,48,0.92) 100%) !important}}
-html{scroll-behavior:smooth}
+html{scroll-behavior:smooth;scroll-padding-top:96px}
+.site-header{position:sticky;top:0;z-index:50}
+@media (max-width: 1080px){html{scroll-padding-top:80px}}
 [hidden]{display:none !important}
 button:disabled{opacity:.6;cursor:default}
 @media (max-width: 760px){.wide-img{aspect-ratio:4 / 3 !important}}
