@@ -19,7 +19,7 @@ The page is for **potential buyers**. It introduces the concept and measures int
 
 ## index.html: section order
 
-1. **Header:** Basecamp logo. Nav: The Homes, Why Basecamp, Wellness & Care, Living Here, Plans. "Register interest" pill.
+1. **Header:** Basecamp logo, with "Boiling Springs, Pennsylvania" beside it (sage mono label after a thin divider, not above anything). Nav: The Homes, Why Basecamp, Wellness & Care, Living Here, Plans. "Register interest" pill.
 2. **Hero `#top`:** aerial rendering.
    - H1: "Basecamp *at Allenberry*"
    - Subhead: "Healthy living and aging in place, *reimagined.*"
