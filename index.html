@@ -54,6 +54,25 @@ section:not(#top)>div{row-gap:36px !important}
 .nav-toggle:focus-visible{outline:2px solid #C5C9A4;outline-offset:3px}
 }
 </style>
+<script>
+/*
+  Meta Pixel: replace META_PIXEL_ID with the Pixel ID from Meta Events Manager
+  (Data sources → your pixel, a 15–16 digit number). Until it is set, nothing loads.
+  Events: PageView on load; Lead when the register-interest form submits successfully;
+  "TrialStayClick" (custom) when "Plan a trial stay" is clicked.
+*/
+window.META_PIXEL_ID = "META_PIXEL_ID";
+if (/^\d+$/.test(window.META_PIXEL_ID)) {
+  !function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+  n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;
+  n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;
+  t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,
+  document,'script','https://connect.facebook.net/en_US/fbevents.js');
+  fbq('init', window.META_PIXEL_ID);
+  fbq('track', 'PageView');
+}
+function metaTrack(type, name, params) { if (window.fbq) fbq(type, name, params || {}); }
+</script>
 </head>
 <body>
 <div style="font-family: Inter, system-ui, sans-serif; color: #1A2530; background: #F4F1EA; min-height: 100px">
@@ -374,7 +393,7 @@ section:not(#top)>div{row-gap:36px !important}
 <div style="display: flex; flex-direction: column; gap: 14px; border-top: 1px solid #1A2530; padding-top: 24px">
 <h3 style="margin: 0; font-family: Fraunces, Georgia, serif; font-weight: 400; font-size: 28px; line-height: 1.15">Try it first.</h3>
 <p style="margin: 0; font-size: 17px; line-height: 1.6; color: #32414E; text-wrap: pretty">Book a midweek stay and see what everyday life here could feel like — morning on the trail, an afternoon at The Spa, dinner at the Barn.</p>
-<a href="#interest-form" onclick="var c=document.getElementById('wl-trial');if(c)c.checked=true;" style="align-self: flex-start; font-family: Poppins, Inter, sans-serif; font-weight: 500; font-size: 13px; letter-spacing: 1.8px; text-transform: uppercase; color: #1A2530; text-decoration: none; padding: 14px 27px; border-radius: 9999px; border: 1px solid #1A2530">Plan a trial stay</a>
+<a href="#interest-form" onclick="var c=document.getElementById('wl-trial');if(c)c.checked=true;metaTrack('trackCustom','TrialStayClick');" style="align-self: flex-start; font-family: Poppins, Inter, sans-serif; font-weight: 500; font-size: 13px; letter-spacing: 1.8px; text-transform: uppercase; color: #1A2530; text-decoration: none; padding: 14px 27px; border-radius: 9999px; border: 1px solid #1A2530">Plan a trial stay</a>
 </div>
 </div>
 <div id="interest-form" style="background: #FBF8F2; padding: 36px; border-radius: 12px; border: 1px solid #D2D4CF">
@@ -528,6 +547,7 @@ section:not(#top)>div{row-gap:36px !important}
     }).then(function (res) {
       if (res.status !== 202) throw new Error("Status " + res.status);
       form.hidden = true; success.hidden = false;
+      metaTrack("track", "Lead", { content_name: "Basecamp register interest", trial_stay: !!props.basecamp_trial_stay });
     }).catch(function () {
       error.textContent = "Something went wrong — please try again in a moment.";
       error.hidden = false; button.disabled = false;
