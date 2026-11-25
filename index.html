@@ -27,17 +27,33 @@ summary:focus-visible{outline:2px solid #595C3B;outline-offset:6px;border-radius
 html{scroll-behavior:smooth}
 [hidden]{display:none !important}
 button:disabled{opacity:.6;cursor:default}
+.nav-toggle{display:none}
+@media (max-width: 1080px){
+.site-head{padding:12px 20px !important}
+.site-head img{height:56px !important}
+.nav-toggle{display:flex;flex-direction:column;justify-content:center;gap:6px;width:48px;height:48px;padding:12px;margin:0;background:transparent;border:1px solid rgba(251,248,242,.35);border-radius:9999px;cursor:pointer}
+.nav-toggle span{display:block;height:2px;width:100%;background:#FBF8F2;border-radius:2px;transition:transform .2s,opacity .2s}
+.site-header.nav-open .nav-toggle span:nth-child(1){transform:translateY(8px) rotate(45deg)}
+.site-header.nav-open .nav-toggle span:nth-child(2){opacity:0}
+.site-header.nav-open .nav-toggle span:nth-child(3){transform:translateY(-8px) rotate(-45deg)}
+.site-nav{display:none !important;flex-basis:100%;flex-direction:column;align-items:stretch !important;gap:0 !important;padding:4px 0 8px;font-size:17px !important}
+.site-header.nav-open .site-nav{display:flex !important}
+.site-nav a:not(:last-child){padding:14px 0;border-top:1px solid rgba(251,248,242,.15)}
+.site-nav a:last-child{margin-top:16px;text-align:center}
+.nav-toggle:focus-visible{outline:2px solid #C5C9A4;outline-offset:3px}
+}
 </style>
 </head>
 <body>
 <div style="font-family: Inter, system-ui, sans-serif; color: #1A2530; background: #F4F1EA; min-height: 100px">
 
-<header style="background: #1A2530; color: #FBF8F2">
-<div style="max-width: 1360px; margin: 0 auto; padding: 14px 32px; display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 16px 32px">
+<header class="site-header" style="background: #1A2530; color: #FBF8F2">
+<div class="site-head" style="max-width: 1360px; margin: 0 auto; padding: 14px 32px; display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 16px 32px">
 <a href="#top" aria-label="Basecamp at Allenberry — home" style="display: flex; align-items: center; color: #FBF8F2; text-decoration: none">
 <img src="assets/basecamp-logo-white.webp" alt="Basecamp at Allenberry" style="height: 68px; width: auto; display: block">
 </a>
-<nav aria-label="Primary" style="display: flex; flex-wrap: wrap; align-items: center; gap: 8px 28px; font-size: 15px">
+<button type="button" class="nav-toggle" aria-label="Open menu" aria-expanded="false" aria-controls="site-nav"><span></span><span></span><span></span></button>
+<nav id="site-nav" class="site-nav" aria-label="Primary" style="display: flex; flex-wrap: wrap; align-items: center; gap: 8px 28px; font-size: 15px">
 <a href="#residences" style="color: #FBF8F2; text-decoration: none">The Homes</a>
 <a href="#different" style="color: #FBF8F2; text-decoration: none">Why Basecamp</a>
 <a href="#care" style="color: #FBF8F2; text-decoration: none">Wellness &amp; Care</a>
@@ -416,6 +432,22 @@ button:disabled{opacity:.6;cursor:default}
 </footer>
 
 </div>
+<script>
+(function () {
+  var header = document.querySelector('.site-header');
+  var toggle = header.querySelector('.nav-toggle');
+  function setOpen(open) {
+    header.classList.toggle('nav-open', open);
+    toggle.setAttribute('aria-expanded', open ? 'true' : 'false');
+    toggle.setAttribute('aria-label', open ? 'Close menu' : 'Open menu');
+  }
+  toggle.addEventListener('click', function () { setOpen(!header.classList.contains('nav-open')); });
+  header.querySelectorAll('.site-nav a').forEach(function (a) {
+    a.addEventListener('click', function () { setOpen(false); });
+  });
+  document.addEventListener('keydown', function (e) { if (e.key === 'Escape') setOpen(false); });
+})();
+</script>
 <script>
 /*
   Waitlist → Klaviyo
