@@ -112,7 +112,7 @@ The keys are set, so live submissions go to the Klaviyo list.
 - [ ] **Assets:**
   - footer logo: swap in a full-resolution Allenberry logo
   - renderings: confirm they're final, and keep the "Conceptual rendering" captions
-- [ ] **Mobile nav:** links wrap on narrow phones. Consider a compact menu.
+- [x] **Mobile nav:** below 1080px the nav collapses into a hamburger menu (`.nav-toggle`); the Register interest pill sits at the bottom of the open menu.
 
 ## Working notes
 
