@@ -56,12 +56,12 @@ section:not(#top)>div{row-gap:36px !important}
 </style>
 <script>
 /*
-  Meta Pixels: one for Instagram (1153802910395476) and one for Facebook (2973545449690982).
-  Every event below goes to both. Add or remove IDs in META_PIXEL_IDS.
+  Meta Pixel (Facebook dataset 2973545449690982). Add or remove IDs in META_PIXEL_IDS;
+  every event below goes to each one listed.
   Events: PageView on load; Lead when the register-interest form submits successfully;
   "TrialStayClick" (custom) when "Plan a trial stay" is clicked.
 */
-window.META_PIXEL_IDS = ["1153802910395476", "2973545449690982"];
+window.META_PIXEL_IDS = ["2973545449690982"];
 if (window.META_PIXEL_IDS.length) {
   !function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?
   n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;
@@ -75,7 +75,6 @@ function metaTrack(type, name, params) { if (window.fbq) fbq(type, name, params 
 </script>
 </head>
 <body>
-<noscript><img height="1" width="1" style="display:none" alt="" src="https://www.facebook.com/tr?id=1153802910395476&ev=PageView&noscript=1"></noscript>
 <noscript><img height="1" width="1" style="display:none" alt="" src="https://www.facebook.com/tr?id=2973545449690982&ev=PageView&noscript=1"></noscript>
 <div style="font-family: Inter, system-ui, sans-serif; color: #1A2530; background: #F4F1EA; min-height: 100px">
 
