@@ -102,7 +102,7 @@ The keys are set, so live submissions go to the Klaviyo list.
 ## TODO before launch
 
 - [x] **Klaviyo:** public key `TjnXN7` and list `RnJtAH` are set. A test submission returned 202. Confirm the API `revision` date is still supported.
-- [x] **Meta Pixel:** ID `1153802910395476` is set in the `<head>` of `index.html` (plus a `<noscript>` fallback after `<body>`). It fires PageView, Lead on a successful form submit, and the custom event TrialStayClick. A footer notice discloses it and links to Meta ad preferences; there is no separate privacy policy page.
+- [x] **Meta Pixels:** two IDs are set in `META_PIXEL_IDS` in the `<head>` of `index.html`: `1153802910395476` (Instagram) and `2973545449690982` (Facebook), each with a `<noscript>` fallback after `<body>`. Every event goes to both. They fire PageView, Lead on a successful form submit, and the custom event TrialStayClick. A footer notice discloses it and links to Meta ad preferences; there is no separate privacy policy page.
 - [ ] **Orvis logo:** add it to the Fly fishing card and confirm the approved wording for the relationship. The Orvis Endorsed badge used in v1 is still in `assets/orvis-endorsed.webp`; confirm with the client whether it's the official file.
 - [ ] **Disclaimer:** consider a footer note. Care services are in development, pricing is subject to change, and covered services are billed to the resident's insurance.
 - [ ] **Verify claims:**
