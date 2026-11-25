@@ -44,7 +44,7 @@ The page is for **potential buyers**. It introduces the concept and measures int
 12. **Register interest `#waitlist`:** "Could you see yourself *here?*", the "Try it first" trial-stay block, and the form.
 13. **Footer:** Allenberry logo and "Pricing and plans subject to change."
 
-Spacing: each section has 96px of top and bottom padding. The exception is the cream care block (`#care`, `#care-partners`, `#care-package`), which uses 48px between its parts so it reads as one block.
+Spacing: each section has 96px of top and bottom padding. The exception is the cream care block (`#care`, `#care-partners`, `#care-package`), which uses 48px between its parts so it reads as one block. On phones (under 760px) these drop to 56px and 28px, and each section's main stack gap drops to 36px.
 
 ## Copy rules from the client
 
